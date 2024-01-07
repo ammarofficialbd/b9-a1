@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+:root {
+  --primary-color: #ff0000;
+  --success-color: #03a529;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+  --light-color: #f8f9fa;
+  --dark-color: #969696;
+  --light-red: #f3f3f3;
+  --bg-color: #fff;
+  --bg-color-2: #b0ffda;
+  --text-color-1: #000;
+  --text-color-2: #f00;
+  --text-color-3: #6e6666;
+  --text-color-4: #495057;
+  --text-color-5: #343a40;
+  --text-color-6: #212529;
+  --font-family: "Roboto", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* box-shadow: 10px 10px 5px 2px rgb(199, 235, 247); */
+}
+
+/* Bottom  */
+/*  button css */
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-family: var(--font-family);
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--slate-600);
+  color: white;
+}
+
+.btn-success {
+  background-color: var(--success-color);
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: var(---slate-600);
+  color: white;
+}
+
+.btn-dark {
+  background-color: var(--dark-color);
+  color: white;
+}
+
+.btn-dark:hover {
+  background-color: var(--light-color);
+  color: black;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: var(--bg-color);
+}
+section,
+header,
+footer {
+  max-width: 1660px;
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  margin-top: 50px;
+  background-image: url("./resources/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: content;
+  height: 600px;
+}
+
+.header > .hr-part-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin: 0 20px;
+}
+.header > .hr-part-one > .logo-box > .logo {
+  color: #fff;
+}
+.header .hr-part-one nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.header .hr-part-one nav > ul > li > a {
+  text-decoration: none;
+  color: var(--light-color);
+}
+
+.header .hr-part-two {
+  position: absolute;
+  width: 632px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header .hr-part-two > .title {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  color: var(--light-color);
+}
+.header .hr-part-two > .sub-title {
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+  color: var(--light-color);
+}
+
+/* Section Categories */
+.sec-01{
+    margin-top: 50px;
+}
+.sec-01 > .sec-01-art{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-01 > .sec-01-art > .sec-01-text{
+    text-align: center;
+}
+
+.sec-01 > .sec-01-art > .sec-01-text> h1{
+    font-size: 88px;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 106px;
+    margin-bottom: 48px;
+}
+.sec-01 > .sec-01-art > .sec-01-text> p{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--primary-color);
+    line-height: 28px;
+    margin-bottom: 28px;
+}
+
+.sec-01 > .sec-01-art > .sec-01-text> h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--text-color-6);
+    line-height: 58px;
+    margin-bottom: 58px;
+}
+
+
