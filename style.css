@@ -169,6 +169,82 @@ footer {
   line-height: 58px;
   margin-bottom: 58px;
 }
+/*  Event Sec css */
+.event > .event-sec-01 {
+  position: relative;
+  margin-top: 50px;
+  background-image: url("./resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: content;
+  height: 600px;
+}
+.event-sec-01-wrapper{
+  padding: 60px 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event-sec-01-wrapper > .event-sec-01-text{
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.event-sec-01-wrapper > .event-sec-01-text > h1{
+  font-size: 64px;
+  font-weight: 900;
+  color: var(--light-color);
+  line-height: 88px;
+  padding-bottom: 20px;
+  letter-spacing: 7.04px;
+}
+.event-sec-01-wrapper > .event-sec-01-text > p{
+  color: var(--light-color);
+  font-size: 18px;
+  line-height: 30px;
+ padding-bottom: 20px;
+}
+.event-sec-01-wrapper > .event-sec-01-img > img{
+  max-width: 320px;
+  height: 460px;
+}
+
+
+
+
+.event > .event-sec-02 {
+  position: relative;
+  margin-top: 50px;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  height: 600px;
+}
+.event > .event-sec-02 > .event-add-sec{
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ flex-direction: column;
+ }
+ .event > .event-sec-02 > .event-add-sec > .event-add {
+  padding-bottom: 48px;
+ }
+ .event > .event-sec-02 > .event-add-sec > .event-add > div{
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; }
+
+ .event > .event-sec-02 > .event-add-sec > .event-add > div >.span{
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--primary-color);
+ }
 /*  Portfolio sec  css*/
 .sec-04 {
   margin-top: 50px;
