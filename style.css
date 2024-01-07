@@ -169,7 +169,42 @@ footer {
   line-height: 58px;
   margin-bottom: 58px;
 }
-/*  Portfolio sec */
+/*  Portfolio sec  css*/
+ .sec-04{
+ margin-top: 50px;
+ }
+ .sec-04 > header > h3{
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-color);
+  line-height: 24px;
+  margin-bottom: 16px;
+ }
+ .sec-04 > header > h1{
+        font-size: 48px;
+  font-weight: 900;
+  color: var(--text-color-1);
+  line-height: 58px;
+  margin-bottom: 40px;
+ }
+ .sec-04 > header > p{
+  width: 896px;
+  font-size: 20px;
+  color: var(--text-color-3); 
+  line-height: 30px;
+ }
+ .sec-04 > .content-box > article > .row{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 20px 0; 
+ } 
+
+ .sec-04 > .content-box > article > .row > .content > img{
+  width: 424px;
+  height: 450px;
+} 
+
 /* footer css */
 footer {
   padding: 120px;
