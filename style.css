@@ -170,43 +170,73 @@ footer {
   margin-bottom: 58px;
 }
 /*  Portfolio sec  css*/
- .sec-04{
- margin-top: 50px;
- }
- .sec-04 > header > h3{
+.sec-04 {
+  margin-top: 50px;
+}
+.sec-04 > header > h3 {
   font-size: 24px;
   font-weight: 700;
   color: var(--primary-color);
   line-height: 24px;
   margin-bottom: 16px;
- }
- .sec-04 > header > h1{
-        font-size: 48px;
+}
+.sec-04 > header > h1 {
+  font-size: 48px;
   font-weight: 900;
   color: var(--text-color-1);
   line-height: 58px;
   margin-bottom: 40px;
- }
- .sec-04 > header > p{
+}
+.sec-04 > header > p {
   width: 896px;
   font-size: 20px;
-  color: var(--text-color-3); 
+  color: var(--text-color-3);
   line-height: 30px;
- }
- .sec-04 > .content-box > article > .row{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       padding: 20px 0; 
- } 
+}
+.sec-04 > .content-box > article > .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
 
- .sec-04 > .content-box > article > .row > .content > img{
+.sec-04 > .content-box > article > .row > .content > img {
   width: 424px;
   height: 450px;
-} 
+}
+/* Newsletter Sec css*/
+.newsltr-sec {
+  height: 600px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.newsltr-sec > article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newsltr-sec > article > .header-part > .icon {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.newsltr-sec > article > .header-part > h2 {
+  width: 890px;
+  color: var(--text-color-1);
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.newsltr-sec > article > .header-part > p {
+  width: 890px;
+  text-align: center;
+}
+
 
 /* footer css */
 footer {
+  margin-top: 50px;
   padding: 120px;
   height: 600px;
   background: #000;
@@ -236,7 +266,7 @@ footer > .social-icon-sec {
   justify-content: center;
   align-items: center;
   height: 160px;
- /*  border: 1px solid var(--text-color-5); */
+  /*  border: 1px solid var(--text-color-5); */
 }
 footer > .social-icon-sec > nav > ul {
   display: flex;
