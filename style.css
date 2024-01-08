@@ -73,6 +73,7 @@ textarea:focus {
 
 html {
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth; 
 }
 body {
   background-color: var(--bg-color);
@@ -81,6 +82,7 @@ section,
 header,
 footer {
   max-width: 1660px;
+  min-width: 460px;
   width: 1320px;
   margin: 0 auto;
 }
@@ -88,21 +90,26 @@ footer {
 .header {
   position: relative;
   margin-top: 50px;
-  background-image: url("./resources/Banner\ Image.png");
   background-repeat: no-repeat;
-  background-size: content;
+  background-image: url("./resources/Banner\ Image.png");
   height: 600px;
 }
 
 .header > .hr-part-one {
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 10px;
   margin: 0 20px;
+  z-index: 999;
 }
 .header > .hr-part-one > .logo-box > .logo {
+  font-size: 32px;
   color: #fff;
+}
+.header > .hr-part-one > .logo-box > .logo >span{
+  color: #ff0000;
 }
 .header .hr-part-one nav > ul {
   display: flex;
@@ -110,15 +117,28 @@ footer {
   align-items: center;
   gap: 20px;
 }
+.header .hr-part-one nav > ul > li{
+list-style: none;
+}
 
 .header .hr-part-one nav > ul > li > a {
   text-decoration: none;
+  font-size: 24px;
   color: var(--light-color);
 }
+.header .hr-part-one nav > ul > li > a:hover {
+  color: var(--text-color-2);
+}
+.header > .bg-opacity{
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
 
+} 
 .header .hr-part-two {
   position: absolute;
-  width: 632px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -414,16 +434,19 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 14px;
+  padding-top: 10px;
 }
 
 .sec-04 > .content-box > article > .row > .content > img {
-  width: 424px;
+  width: 430px;
   height: 450px;
+  border-radius: 5%;
 }
 /* Newsletter Sec css*/
 .newsltr-sec {
   margin-top: 50px;
+  min-width: 300px;
+  max-width: 13200px;
   height: 600px;
   background: rgba(255, 0, 0, 0.05);
 }
@@ -432,6 +455,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .newsltr-sec > article > .header-part > .icon {
   padding-top: 80px;
@@ -494,7 +518,8 @@ footer {
   background: var(--primary-color);
   color: var(--light-color);
 }
-/* footer css */
+
+/* footer css  start*/
 footer {
   margin-top: 50px;
   padding: 120px;
