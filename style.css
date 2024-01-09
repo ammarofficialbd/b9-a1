@@ -447,7 +447,7 @@ width: 100%;
 .newsltr-sec {
   margin-top: 50px;
   min-width: 300px;
-  max-width: 13200px;
+  max-width: 1320px;
   height: 600px;
   background: rgba(255, 0, 0, 0.05);
 }
@@ -474,6 +474,8 @@ width: 100%;
 .newsltr-sec > article > .header-part > p {
   width: 890px;
   text-align: center;
+  font-size: 18px;
+  color: var(--text-color-3);
 }
 
 .subs-box > form {
